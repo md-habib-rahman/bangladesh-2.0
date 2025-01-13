@@ -112,10 +112,32 @@ main {
 
 .foundation-item {
 	background-color: #fff;
-	border: solid 1px rgba(14 14 14 .15);
+	border: 1px solid rgba(14, 14, 14, .15);
 	border-radius: 16px;
 	-webkit-border-radius: 16px;
 	-moz-border-radius: 16px;
 	-ms-border-radius: 16px;
 	-o-border-radius: 16px;
+	width: 25%;
+	margin: 50px 0;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.foundation-item img {
+	width: 50px;
+}
+
+.foundation-item h3 {
+	color: rgb(14, 14, 14, .8);
+	font-size: 20;
+}
+
+.foundation-item p {
+	color: rgb(14, 14, 14, .7);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
 }
