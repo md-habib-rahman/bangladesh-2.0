@@ -108,6 +108,15 @@ main {
   font-weight: 600;
 }
 
+.btn-primary:hover {
+  color: #006a50;
+  /* padding: 15px 30px; */
+  border: #006a50 1px solid;
+  /* font-weight: 18px;
+  font-weight: 700; */
+  background-color: transparent;
+}
+
 .banner {
   margin-bottom: 80px;
 }
@@ -379,3 +388,64 @@ table a {
   border: none;
   text-align: center;
 }
+
+.news-letter {
+  text-align: center;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  padding: 80px 265px;
+}
+
+.news-letter-description {
+  margin: 30px 0;
+}
+
+.news-letter-input {
+  padding: 17px 34px;
+  border-radius: 8px 0 0 8px;
+  -webkit-border-radius: 8px 0 0 8px;
+  -moz-border-radius: 8px 0 0 8px;
+  -ms-border-radius: 8px 0 0 8px;
+  -o-border-radius: 8px 0 0 8px;
+  border: none;
+  margin: 0;
+  width: 100%;
+}
+
+.news-letter-input-div {
+  width: 100%;
+  display: flex;
+  margin: 30px 0;
+}
+
+.news-letter-input-div a {
+  margin: 0;
+  border-radius: 0 8px 8px 0;
+  -webkit-border-radius: 0 8px 8px 0;
+  -moz-border-radius: 0 8px 8px 0;
+  -ms-border-radius: 0 8px 8px 0;
+  -o-border-radius: 0 8px 8px 0;
+}
+
+footer {
+  background-color: #fff;
+  padding: 50px 300px;
+  text-align: center;
+  color: #0e0e0e;
+  font-size: 30px;
+}
+
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+/* footer h2 {
+  margin-bottom: 32px;
+} */
