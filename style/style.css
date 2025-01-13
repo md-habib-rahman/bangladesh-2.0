@@ -446,6 +446,12 @@ footer {
   justify-content: space-between;
 }
 
-/* footer h2 {
-  margin-bottom: 32px;
-} */
+.color-10 {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.social-icons a {
+  color: #0e0e0e;
+  text-decoration: none;
+  margin-right: 10px;
+}
